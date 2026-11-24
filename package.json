@@ -1,0 +1,27 @@
+{
+  "name": "egoops-mock",
+  "version": "1.0.0",
+  "description": "EgoOps「申请采集点」链路的本机模拟服务：接口契约复刻，数据落 state.json + storage/",
+  "type": "module",
+  "main": "mock-egoops.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node mock-egoops.mjs",
+    "dev": "node --watch mock-egoops.mjs",
+    "mock": "node mock-egoops.mjs",
+    "check": "node scripts/check.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "keywords": [
+    "egoops",
+    "mock",
+    "contract-test"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}

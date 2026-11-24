@@ -1,0 +1,79 @@
+{
+  "_note": "结构样例：sites/tasks/media 各保留 1 条 + \"…\" 占位；seq 是自增 id 计数器。真实数据不随仓库发布。",
+  "sites": [
+    {
+      "task_set_id": "771001",
+      "project_id": "09893824",
+      "project_name": "DVT阶段渠道商录制",
+      "name": "未命名采集点-771001",
+      "vendor_id": "tenant_8a4ea824",
+      "vendor_name": "湛江盛宴科技有限公司",
+      "priority": "medium",
+      "status": "pending",
+      "dispatched_at": null,
+      "created_by": "mock",
+      "created_by_name": "mock",
+      "created_at": "2026-11-19T06:34:44",
+      "work_mode": "site_organization",
+      "tet_node_path": "",
+      "address": "",
+      "description": "",
+      "site_photos": [],
+      "review_status": "draft",
+      "review_comment": null,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "review_content_modified": false,
+      "approved_duration": null,
+      "restore_available": false,
+      "collectors": [],
+      "collected_duration": 0,
+      "uploaded_duration": 0,
+      "pass_duration": 0,
+      "reviewed_duration": 0,
+      "task_count": 0,
+      "over_collected_task_count": 0,
+      "completed_task_count": 0,
+      "total_required_duration": 0,
+      "stats": {}
+    },
+    "…"
+  ],
+  "tasks": [
+    {
+      "task_id": "661002",
+      "task_set_id": "771001",
+      "task_name": "",
+      "tet_node_path": "",
+      "description": "",
+      "required_duration": 0,
+      "collect_mode": "passive",
+      "collect_device_schema": null,
+      "sop": {
+        "steps": []
+      },
+      "task_photos": [],
+      "task_videos": [],
+      "review_status": "draft",
+      "created_at": "2026-11-19T06:34:44"
+    },
+    "…"
+  ],
+  "media": [
+    {
+      "media_id": "m1004",
+      "owner_type": "TASK",
+      "owner_id": "661002",
+      "business_type": "TASK_PHOTO",
+      "filename": "IMG_0_1.jpg",
+      "content_type": "image/jpeg",
+      "file_size": 204800,
+      "created_at": "2026-11-19T06:34:44",
+      "uploaded_at": "2026-11-19T06:34:44",
+      "completed_at": "2026-11-19T06:34:44",
+      "bytes": 204800
+    },
+    "…"
+  ],
+  "seq": 1048
+}
